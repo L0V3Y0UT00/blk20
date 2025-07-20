@@ -1,0 +1,8 @@
+  echo "# blk20" >> README.md
+  559  git init
+  560  git add README.md
+  561  git commit -m "first commit"
+  562  git branch -M main
+  563  git remote add origin https://github.com/L0V3Y0UT00/blk20.git
+  564  git push -u origin main
+  565  history
