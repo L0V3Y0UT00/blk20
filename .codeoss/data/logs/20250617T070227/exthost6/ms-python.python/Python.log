@@ -1,0 +1,5 @@
+2025-06-17 07:38:26.551 [warning] Dir "/home/f43939714/cloudshell_open/python-docs-samples/.pixi/envs" is not watchable (directory does not exist)
+2025-06-17 07:38:26.551 [info] Python interpreter path: /bin/python
+2025-06-17 07:38:26.603 [info] > pyenv which python
+2025-06-17 07:38:26.603 [info] cwd: .
+2025-06-17 07:38:40.458 [info] Starting Jedi language server for python-docs-samples.

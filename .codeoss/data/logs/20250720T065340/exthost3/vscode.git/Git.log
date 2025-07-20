@@ -1,0 +1,82 @@
+2025-07-20 08:22:01.867 [info] [main] Log level: Info
+2025-07-20 08:22:01.867 [info] [main] Validating found git in: "git"
+2025-07-20 08:22:01.867 [info] [main] Using git "2.43.0" from "git"
+2025-07-20 08:22:01.867 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-20 08:22:01.867 [info] > git rev-parse --show-toplevel [24ms]
+2025-07-20 08:22:01.867 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-07-20 08:22:01.867 [info] > git rev-parse --show-toplevel [10ms]
+2025-07-20 08:22:01.867 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-07-20 08:22:01.890 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-20 08:22:01.890 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-07-20 08:22:01.901 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-20 08:22:01.901 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-07-20 08:22:01.912 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-20 08:22:01.912 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-07-20 08:22:01.932 [info] > git rev-parse --show-toplevel [10ms]
+2025-07-20 08:22:01.932 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-07-20 08:22:01.945 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-20 08:22:01.945 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-07-20 08:22:01.960 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-20 08:22:01.960 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-07-20 08:22:01.973 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-20 08:22:01.973 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-07-20 08:22:01.996 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-20 08:22:01.996 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-07-20 08:22:02.016 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-20 08:22:02.016 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-07-20 08:22:02.027 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-20 08:22:02.028 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-07-20 08:22:02.039 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-20 08:22:02.058 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2025-07-20 08:22:02.077 [info] [Model][openRepository] Opened repository: /home/f43939714/BULK-DOWNLOADER
+2025-07-20 08:22:02.086 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-20 08:22:02.102 [info] > git config --get commit.template [3ms]
+2025-07-20 08:22:02.117 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-07-20 08:22:02.129 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/f43939714/BULK-DOWNLOADER/.git/refs/remotes/origin/main'
+2025-07-20 08:22:02.131 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-07-20 08:22:02.317 [info] > git status -z -uall [174ms]
+2025-07-20 08:22:02.348 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [192ms]
+2025-07-20 08:22:02.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2025-07-20 08:22:02.436 [info] > git config --get commit.template [27ms]
+2025-07-20 08:22:02.438 [info] > git config --get --local branch.main.vscode-merge-base [11ms]
+2025-07-20 08:22:02.507 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [56ms]
+2025-07-20 08:22:02.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2025-07-20 08:22:02.542 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/f43939714/BULK-DOWNLOADER/.git/refs/remotes/origin/main'
+2025-07-20 08:22:02.542 [info] > git merge-base refs/heads/main refs/remotes/origin/main [21ms]
+2025-07-20 08:22:02.556 [info] > git rev-parse refs/remotes/origin/main [14ms]
+2025-07-20 08:22:02.587 [info] > git status -z -uall [14ms]
+2025-07-20 08:22:02.588 [info] > git diff --name-status -z --diff-filter=ADMR 2053f8378440809c01ebbab0ed1a360132b8350c...refs/remotes/origin/main [33ms]
+2025-07-20 08:22:02.592 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-07-20 08:22:03.648 [info] > git check-ignore -v -z --stdin [23ms]
+2025-07-20 08:25:01.317 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-20 08:25:01.326 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-07-20 08:25:01.341 [info] [Model][openRepository] Opened repository: /home/f43939714
+2025-07-20 08:25:01.353 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-20 08:25:01.361 [info] > git config --get commit.template [8ms]
+2025-07-20 08:25:01.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-07-20 08:25:01.361 [warning] [Git][getBranch] No such branch: master
+2025-07-20 08:25:01.381 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-20 08:25:01.472 [info] > git status -z -uall [104ms]
+2025-07-20 08:25:02.888 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1241ms]
+2025-07-20 08:25:02.889 [warning] [Git][getBranch] No such branch: master
+2025-07-20 08:25:02.889 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-07-20 08:25:02.906 [info] > git config --get commit.template [30ms]
+2025-07-20 08:25:02.918 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-20 08:25:02.920 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-07-20 08:25:02.920 [warning] [Git][getBranch] No such branch: master
+2025-07-20 08:25:02.941 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-07-20 08:25:03.297 [info] > git status -z -uall [371ms]
+2025-07-20 08:25:04.787 [info] > git check-ignore -v -z --stdin [1177ms]
+2025-07-20 08:25:04.788 [info] > git check-ignore -v -z --stdin [1171ms]

@@ -1,0 +1,51 @@
+2025-06-25 08:04:07.507 [info] 
+
+
+
+
+2025-06-25 08:04:07.526 [info] Extension host agent started.
+2025-06-25 08:04:11.772 [info] [127.0.0.1][276733ee][ManagementConnection] New connection established.
+2025-06-25 08:04:11.903 [info] [127.0.0.1][0fbd9862][ExtensionHostConnection] New connection established.
+2025-06-25 08:04:14.702 [info] [127.0.0.1][0fbd9862][ExtensionHostConnection] <1250> Launched Extension Host Process.
+2025-06-25 08:05:36.817 [info] [127.0.0.1][276733ee][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-06-25 08:05:36.958 [info] [127.0.0.1][0fbd9862][ExtensionHostConnection] <1250> Extension Host Process exited with code: 0, signal: null.
+2025-06-25 08:07:32.944 [info] [127.0.0.1][876ab875][ManagementConnection] New connection established.
+2025-06-25 08:07:33.054 [info] [127.0.0.1][90e80b14][ExtensionHostConnection] New connection established.
+2025-06-25 08:07:33.059 [info] [127.0.0.1][90e80b14][ExtensionHostConnection] <2133> Launched Extension Host Process.
+2025-06-25 08:10:57.104 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-06-25 08:11:22.166 [info] [127.0.0.1][876ab875][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-06-25 08:11:22.310 [info] [127.0.0.1][90e80b14][ExtensionHostConnection] <2133> Extension Host Process exited with code: 0, signal: null.
+2025-06-25 08:11:34.602 [info] [127.0.0.1][00e0272a][ManagementConnection] New connection established.
+2025-06-25 08:11:34.776 [info] [127.0.0.1][9f0fadb3][ExtensionHostConnection] New connection established.
+2025-06-25 08:11:34.781 [info] [127.0.0.1][9f0fadb3][ExtensionHostConnection] <2307> Launched Extension Host Process.
+2025-06-25 08:15:36.989 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-06-25 08:16:06.501 [info] [127.0.0.1][00e0272a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-06-25 08:16:06.686 [info] [127.0.0.1][9f0fadb3][ExtensionHostConnection] <2307> Extension Host Process exited with code: 0, signal: null.
+2025-06-25 08:16:17.177 [info] [127.0.0.1][db6c902e][ManagementConnection] New connection established.
+2025-06-25 08:16:17.309 [info] [127.0.0.1][d4f61a1c][ExtensionHostConnection] New connection established.
+2025-06-25 08:16:17.316 [info] [127.0.0.1][d4f61a1c][ExtensionHostConnection] <2682> Launched Extension Host Process.
+2025-06-25 08:16:22.090 [info] [127.0.0.1][db6c902e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-06-25 08:16:34.042 [info] [127.0.0.1][1b3ab48e][ManagementConnection] New connection established.
+2025-06-25 08:16:34.185 [info] [127.0.0.1][57b6a2cc][ExtensionHostConnection] New connection established.
+2025-06-25 08:16:34.191 [info] [127.0.0.1][57b6a2cc][ExtensionHostConnection] <2712> Launched Extension Host Process.
+2025-06-25 08:21:34.353 [info] [127.0.0.1][d4f61a1c][ExtensionHostConnection] <2682> Extension Host Process exited with code: 0, signal: null.
+2025-06-25 08:39:21.864 [info] [127.0.0.1][a80d0d2d][ManagementConnection] New connection established.
+2025-06-25 08:39:21.994 [info] [127.0.0.1][74a21f0a][ExtensionHostConnection] New connection established.
+2025-06-25 08:39:22.001 [info] [127.0.0.1][74a21f0a][ExtensionHostConnection] <2864> Launched Extension Host Process.
+2025-06-25 08:39:42.561 [warning] RequestStore#acceptReply was called without receiving a matching request 73
+2025-06-25 08:39:42.561 [warning] RequestStore#acceptReply was called without receiving a matching request 74
+2025-06-25 08:39:42.566 [warning] RequestStore#acceptReply was called without receiving a matching request 75
+2025-06-25 08:39:42.566 [warning] RequestStore#acceptReply was called without receiving a matching request 76
+2025-06-25 08:39:42.566 [warning] RequestStore#acceptReply was called without receiving a matching request 77
+2025-06-25 08:39:42.566 [warning] RequestStore#acceptReply was called without receiving a matching request 78
+2025-06-25 08:39:42.566 [warning] RequestStore#acceptReply was called without receiving a matching request 79
+2025-06-25 08:39:42.566 [warning] RequestStore#acceptReply was called without receiving a matching request 80
+2025-06-25 08:39:42.578 [warning] RequestStore#acceptReply was called without receiving a matching request 81
+2025-06-25 08:39:42.578 [warning] RequestStore#acceptReply was called without receiving a matching request 82
+2025-06-25 08:39:42.578 [warning] RequestStore#acceptReply was called without receiving a matching request 83
+2025-06-25 08:39:42.578 [warning] RequestStore#acceptReply was called without receiving a matching request 84
+2025-06-25 08:44:59.748 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-06-25 08:44:59.750 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-06-25 09:43:37.377 [info] [127.0.0.1][1b3ab48e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-06-25 09:43:39.712 [info] [127.0.0.1][74a21f0a][ExtensionHostConnection] <2864> Extension Host Process exited with code: 0, signal: null.
+2025-06-25 09:43:41.154 [info] [127.0.0.1][a80d0d2d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

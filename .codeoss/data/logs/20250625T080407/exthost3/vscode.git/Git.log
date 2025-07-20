@@ -1,0 +1,105 @@
+2025-06-25 08:11:44.321 [info] [main] Log level: Info
+2025-06-25 08:11:44.321 [info] [main] Validating found git in: "git"
+2025-06-25 08:11:44.321 [info] [main] Using git "2.43.0" from "git"
+2025-06-25 08:11:44.321 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-25 08:11:44.321 [info] > git rev-parse --show-toplevel [5ms]
+2025-06-25 08:11:44.321 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-25 08:11:44.321 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-25 08:11:44.321 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-25 08:11:44.321 [info] > git rev-parse --show-toplevel [67ms]
+2025-06-25 08:11:44.321 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-25 08:11:44.321 [info] > git rev-parse --show-toplevel [4ms]
+2025-06-25 08:11:44.321 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-25 08:11:44.328 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-25 08:11:44.329 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-25 08:11:44.335 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-25 08:11:44.335 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-25 08:11:44.344 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-25 08:11:44.344 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-25 08:11:44.351 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-25 08:11:44.351 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-25 08:11:44.358 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-25 08:11:44.358 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-25 08:11:44.358 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-25 08:12:15.504 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-25 08:12:15.517 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-06-25 08:12:15.532 [info] [Model][openRepository] Opened repository: /home/f43939714/BULK-DOWNLOADER
+2025-06-25 08:12:15.559 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-06-25 08:12:15.560 [warning] [Git][getBranch] No such branch: master
+2025-06-25 08:12:15.561 [info] > git config --get commit.template [16ms]
+2025-06-25 08:12:15.585 [info] > git status -z -uall [14ms]
+2025-06-25 08:12:15.587 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-06-25 08:12:15.615 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2025-06-25 08:12:15.615 [warning] [Git][getBranch] No such branch: master
+2025-06-25 08:12:15.616 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-06-25 08:12:15.618 [info] > git config --get commit.template [4ms]
+2025-06-25 08:12:15.632 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-06-25 08:12:15.632 [warning] [Git][getBranch] No such branch: master
+2025-06-25 08:12:15.653 [info] > git status -z -uall [12ms]
+2025-06-25 08:12:15.654 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-25 08:12:16.269 [info] > git check-ignore -v -z --stdin [2ms]
+2025-06-25 08:13:23.979 [info] > git config --get commit.template [9ms]
+2025-06-25 08:13:24.067 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [67ms]
+2025-06-25 08:13:24.082 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/f43939714/BULK-DOWNLOADER/.git/refs/remotes/origin/main'
+2025-06-25 08:13:24.092 [info] > git rev-parse refs/remotes/origin/main [11ms]
+2025-06-25 08:13:24.138 [info] > git status -z -uall [33ms]
+2025-06-25 08:13:24.146 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2025-06-25 08:13:24.220 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-06-25 08:13:24.298 [info] > git config --get --local branch.main.vscode-merge-base [58ms]
+2025-06-25 08:13:24.298 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-25 08:13:24.327 [info] > git reflog main --grep-reflog=branch: Created from *. [8ms]
+2025-06-25 08:13:24.361 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [13ms]
+2025-06-25 08:13:24.388 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [12ms]
+2025-06-25 08:13:24.409 [info] > git config --add --local branch.main.vscode-merge-base origin/main [8ms]
+2025-06-25 08:13:24.448 [info] > git config --get commit.template [28ms]
+2025-06-25 08:13:24.450 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-06-25 08:13:24.465 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/f43939714/BULK-DOWNLOADER/.git/refs/remotes/origin/main'
+2025-06-25 08:13:24.467 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-06-25 08:13:24.497 [info] > git status -z -uall [17ms]
+2025-06-25 08:13:24.498 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-25 08:13:24.525 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2025-06-25 08:13:24.534 [info] > git merge-base refs/heads/main refs/remotes/origin/main [15ms]
+2025-06-25 08:13:24.545 [info] > git config --get --local branch.main.vscode-merge-base [12ms]
+2025-06-25 08:13:24.555 [info] > git diff --name-status -z --diff-filter=ADMR 4dc36420e9ba009a51691f685749f423d848e6fc...refs/remotes/origin/main [12ms]
+2025-06-25 08:13:24.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2025-06-25 08:13:24.934 [info] > git check-ignore -v -z --stdin [2ms]
+2025-06-25 08:13:28.009 [info] > git check-ignore -v -z --stdin [2ms]
+2025-06-25 08:13:29.246 [info] > git config --get commit.template [14ms]
+2025-06-25 08:13:29.248 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-06-25 08:13:29.259 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/f43939714/BULK-DOWNLOADER/.git/refs/remotes/origin/main'
+2025-06-25 08:13:29.261 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-06-25 08:13:29.286 [info] > git status -z -uall [15ms]
+2025-06-25 08:13:29.289 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-06-25 08:13:29.937 [info] > git show --textconv :cookies.txt [13ms]
+2025-06-25 08:13:29.939 [info] > git ls-files --stage -- cookies.txt [5ms]
+2025-06-25 08:13:29.951 [info] > git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc [2ms]
+2025-06-25 08:13:33.065 [info] > git check-ignore -v -z --stdin [2ms]
+2025-06-25 08:13:49.579 [info] > git blame --root --incremental 4dc36420e9ba009a51691f685749f423d848e6fc -- cookies.txt [4ms]
+2025-06-25 08:13:51.638 [info] > git config --get commit.template [20ms]
+2025-06-25 08:13:51.642 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-06-25 08:13:51.658 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/f43939714/BULK-DOWNLOADER/.git/refs/remotes/origin/main'
+2025-06-25 08:13:51.663 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-06-25 08:13:51.689 [info] > git status -z -uall [16ms]
+2025-06-25 08:13:51.690 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-06-25 08:13:56.721 [info] > git config --get commit.template [14ms]
+2025-06-25 08:13:56.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-06-25 08:13:56.734 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/f43939714/BULK-DOWNLOADER/.git/refs/remotes/origin/main'
+2025-06-25 08:13:56.736 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-06-25 08:13:56.760 [info] > git status -z -uall [13ms]
+2025-06-25 08:13:56.764 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-06-25 08:14:57.154 [info] > git check-ignore -v -z --stdin [4ms]
+2025-06-25 08:14:58.502 [info] > git config --get commit.template [6ms]
+2025-06-25 08:14:58.622 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [44ms]
+2025-06-25 08:14:58.646 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/f43939714/BULK-DOWNLOADER/.git/refs/remotes/origin/main'
+2025-06-25 08:14:58.649 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-06-25 08:14:58.685 [info] > git status -z -uall [24ms]
+2025-06-25 08:14:58.686 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]

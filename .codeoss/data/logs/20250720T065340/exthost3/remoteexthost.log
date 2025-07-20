@@ -1,0 +1,19 @@
+2025-07-20 08:21:55.012 [info] Extension host with pid 5498 started
+2025-07-20 08:21:55.039 [info] Lock '/home/f43939714/.codeoss/data/User/workspaceStorage/-5066c/vscode.lock': Lock acquired.
+2025-07-20 08:21:55.834 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2025-07-20 08:21:55.835 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-20 08:21:55.836 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-20 08:21:55.836 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-20 08:21:55.837 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-20 08:21:55.837 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onTerminalProfile:cloudshell.default'
+2025-07-20 08:21:57.668 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-20 08:21:57.957 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-20 08:21:57.958 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-20 08:21:58.502 [info] Eager extensions activated
+2025-07-20 08:21:58.502 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-07-20 08:21:58.503 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-07-20 08:21:58.504 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-20 08:21:58.504 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-20 08:22:02.689 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-20 08:25:01.612 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7079
+2025-07-20 08:25:03.586 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7079

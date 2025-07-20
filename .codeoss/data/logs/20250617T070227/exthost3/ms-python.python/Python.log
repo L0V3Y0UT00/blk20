@@ -1,0 +1,76 @@
+2025-06-17 07:32:48.232 [warning] Dir "/home/f43939714/cloudshell_open/python-docs-samples/.pixi/envs" is not watchable (directory does not exist)
+2025-06-17 07:32:48.232 [info] Starting Environment refresh
+2025-06-17 07:32:48.232 [info] Searching for interpreters in posix paths locator
+2025-06-17 07:32:48.232 [info] Searching for pyenv environments
+2025-06-17 07:32:48.232 [info] Searching for conda environments
+2025-06-17 07:32:48.232 [info] Searching for global virtual environments
+2025-06-17 07:32:48.232 [info] Searching for custom virtual environments
+2025-06-17 07:32:48.232 [info] pyenv is not installed
+2025-06-17 07:32:48.232 [info] Finished searching for pyenv environments: 56 milliseconds
+2025-06-17 07:32:48.232 [info] Finished searching for custom virtual envs: 55 milliseconds
+2025-06-17 07:32:48.232 [info] > conda info --json
+2025-06-17 07:32:48.232 [info] > hatch env show --json
+2025-06-17 07:32:48.232 [info] cwd: .
+2025-06-17 07:32:48.232 [info] > pyenv which python
+2025-06-17 07:32:48.232 [info] cwd: .
+2025-06-17 07:32:48.232 [info] Finished searching for global virtual envs: 146 milliseconds
+2025-06-17 07:32:48.235 [info] Found: /bin/python --> /bin/python3.12
+2025-06-17 07:32:48.265 [info] Found: /bin/python3 --> /bin/python3.12
+2025-06-17 07:32:48.296 [info] Found: /bin/python3.12 --> /bin/python3.12
+2025-06-17 07:32:48.431 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2025-06-17 07:32:48.450 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2025-06-17 07:32:48.455 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2025-06-17 07:32:51.547 [info] Finished searching for interpreters in posix paths locator: 3491 milliseconds
+2025-06-17 07:32:51.547 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-06-17 07:32:51.966 [info] > /usr/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-06-17 07:32:53.345 [info] Environments refresh paths discovered (event): 5334 milliseconds
+2025-06-17 07:32:53.345 [info] Environments refresh finished (event): 5334 milliseconds
+2025-06-17 07:32:53.345 [info] Environments refresh paths discovered: 5337 milliseconds
+2025-06-17 07:32:53.402 [info] Environment refresh took 5384 milliseconds
+2025-06-17 07:32:53.476 [info] Python interpreter path: /bin/python
+2025-06-17 07:33:00.996 [info] Starting Jedi language server for python-docs-samples.
+2025-06-17 07:33:46.961 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/f43939714/cloudshell_open/python-docs-samples/videointelligence/samples/analyze/requirements-test.txt
+2025-06-17 07:33:46.961 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./videointelligence/samples/analyze/requirements-test.txt
+2025-06-17 07:33:48.471 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/f43939714/cloudshell_open/python-docs-samples/videointelligence/samples/analyze/requirements.txt
+2025-06-17 07:33:48.471 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./videointelligence/samples/analyze/requirements.txt
+2025-06-17 07:34:08.423 [info] Send text to terminal: /bin/python /home/f43939714/cloudshell_open/python-docs-samples/videointelligence/samples/quickstart/quickstart.py

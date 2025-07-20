@@ -1,0 +1,24 @@
+2025-06-18 05:18:22.462 [info] Extension host with pid 1991 started
+2025-06-18 05:18:22.462 [error] Error: EEXIST: file already exists, open '/home/f43939714/.codeoss/data/User/workspaceStorage/42ceeb05/vscode.lock'
+2025-06-18 05:18:22.470 [info] Lock '/home/f43939714/.codeoss/data/User/workspaceStorage/42ceeb05/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-06-18 05:18:22.488 [info] Lock '/home/f43939714/.codeoss/data/User/workspaceStorage/42ceeb05/vscode.lock': The lock does not look stale, elapsed: 658 ms, giving up.
+2025-06-18 05:18:22.512 [info] Lock '/home/f43939714/.codeoss/data/User/workspaceStorage/42ceeb05-1/vscode.lock': Lock acquired.
+2025-06-18 05:18:22.661 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-18 05:18:22.901 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-18 05:18:23.065 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-18 05:18:23.066 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-18 05:18:23.894 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-18 05:18:29.905 [info] Not activating extension 'redhat.java': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2025-06-18 05:18:29.906 [info] Not activating extension 'vscjava.vscode-java-dependency': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2025-06-18 05:18:29.909 [info] Not activating extension 'vscjava.vscode-java-test': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2025-06-18 05:18:29.909 [info] Not activating extension 'vscjava.vscode-maven': Timed out while searching for 'workspaceContains' pattern **/pom.xml
+2025-06-18 05:18:30.024 [info] Eager extensions activated
+2025-06-18 05:18:30.026 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-06-18 05:18:30.027 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2025-06-18 05:18:30.030 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2025-06-18 05:18:30.031 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-18 05:18:30.032 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-18 05:18:35.608 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-06-18 05:18:41.550 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-18 05:18:41.552 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-18 05:18:41.555 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'

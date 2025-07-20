@@ -1,0 +1,10 @@
+{
+    "http.proxySupport": "off",
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+    "redhat.telemetry.enabled": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "window.autoDetectColorScheme": true,
+    "terminal.integrated.defaultProfile.linux": "Google Cloud Shell",
+    "cloudcode.duetAI.project": ""
+}

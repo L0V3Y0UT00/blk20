@@ -1,0 +1,16 @@
+2025-07-12 08:21:57.835 [warning] Dir "/home/f43939714/.pixi/envs" is not watchable (directory does not exist)
+2025-07-12 08:21:57.918 [info] Starting Environment refresh
+2025-07-12 08:21:57.945 [info] > hatch env show --json
+2025-07-12 08:21:57.945 [info] cwd: .
+2025-07-12 08:21:57.947 [info] Python interpreter path: /bin/python
+2025-07-12 08:21:57.975 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-07-12 08:21:57.980 [info] Environments refresh paths discovered: 63 milliseconds
+2025-07-12 08:21:58.055 [info] Environments refresh finished (event): 138 milliseconds
+2025-07-12 08:21:58.058 [info] Environment refresh took 142 milliseconds
+2025-07-12 08:21:58.084 [info] > pyenv which python
+2025-07-12 08:21:58.084 [info] cwd: .
+2025-07-12 08:21:59.979 [info] Starting Jedi language server for f43939714.
+2025-07-12 08:22:05.023 [info] Discover tests for workspace name: f43939714 - uri: /home/f43939714/a.py
+2025-07-12 08:22:05.527 [info] Discover tests for workspace name: f43939714 - uri: /home/f43939714/a.py
+2025-07-12 08:26:05.416 [info] Discover tests for workspace name: f43939714 - uri: /home/f43939714/a.py
+2025-07-12 08:44:17.099 [info] Discover tests for workspace name: f43939714 - uri: /home/f43939714/a.py

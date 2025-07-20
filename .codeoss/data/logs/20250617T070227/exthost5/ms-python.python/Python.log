@@ -1,0 +1,12 @@
+2025-06-17 07:36:32.966 [warning] Dir "/home/f43939714/cloudshell_open/python-docs-samples/.pixi/envs" is not watchable (directory does not exist)
+2025-06-17 07:36:32.967 [info] Starting Environment refresh
+2025-06-17 07:36:32.967 [info] > hatch env show --json
+2025-06-17 07:36:32.967 [info] cwd: .
+2025-06-17 07:36:32.967 [info] Python interpreter path: /bin/python
+2025-06-17 07:36:35.012 [info] > pyenv which python
+2025-06-17 07:36:35.012 [info] cwd: .
+2025-06-17 07:36:35.232 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-06-17 07:36:37.257 [info] Environments refresh finished (event): 4349 milliseconds
+2025-06-17 07:36:37.257 [info] Environments refresh paths discovered: 4349 milliseconds
+2025-06-17 07:36:37.286 [info] Environment refresh took 4379 milliseconds
+2025-06-17 07:36:39.717 [info] Starting Jedi language server for python-docs-samples.
