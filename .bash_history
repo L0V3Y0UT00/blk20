@@ -518,3 +518,19 @@ ls
 git init
 git add .
 rm -f .git/index.lock
+git add .
+git rm --cached -r BULK-DOWNLOADER
+echo "BULK-DOWNLOADER/" >> .gitignore
+git rm -rf --cached BULK-DOWNLOADER
+git add .gitignore
+git commit -m "Initial commit without BULK-DOWNLOADER"
+git config --global user.name "L0V3Y0UT00"
+git config --global user.email "f43939714@gmail.com"
+git commit -m "Initial commit without BULK-DOWNLOADER"
+git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+git push -u origin main
+git branch -M main
+git push -u origin main
+git remote -v
