@@ -101,11 +101,11 @@ if [[ -n "$user_input" ]]; then
 fi
 
 # ========== TikTok Download ==========
-if [[ "$platform" == "tiktok" ]]; then
-    echo -e "${YELLOW}Downloading video(s) from TikTok...${NC}"
-    yt-dlp "$final_url"
-    exit 0
-fi
+#if [[ "$platform" == "tiktok" ]]; then
+  #  echo -e "${YELLOW}Downloading video(s) from TikTok...${NC}"
+  #  yt-dlp "$final_url"
+   # exit 0
+#fi
 
 # ========== YouTube Shorts Extraction ==========
 if [[ "$platform" == "youtube" && -n "$final_url" ]]; then
